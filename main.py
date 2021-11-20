@@ -1,4 +1,3 @@
-
 def kbig(nums, k):
 
     count = []
@@ -19,11 +18,5 @@ def kbig(nums, k):
         count[l - d] -= 1
 
     return res
-
-if __name__ == '__main__':
-
-    a = [3,2,3,1,2,4,5,5,6]
-    print(kbig(a, 9))
-
 
 
